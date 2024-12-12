@@ -13,7 +13,7 @@
     data-kt-drawer-direction="start"
     data-kt-drawer-toggle="#kt_app_sidebar_mobile_toggle"
   >
-    <KTSidebarLogo :sidebar-ref="sidebarRef"></KTSidebarLogo>
+    <SidebarLogo :sidebar-ref="sidebarRef"></SidebarLogo>
     <SidebarMenu></SidebarMenu>
     <SidebarFooter></SidebarFooter>
   </div>
@@ -23,14 +23,14 @@
 <script lang="ts">
 import { defineComponent, ref } from "vue";
 import { displaySidebar } from "@/layouts/default-layout/config/helper";
-import KTSidebarLogo from "@/layouts/default-layout/components/sidebar/SidebarLogo.vue";
+import SidebarLogo from "@/layouts/default-layout/components/sidebar/SidebarLogo.vue";
 import SidebarMenu from "@/layouts/default-layout/components/sidebar/SidebarMenu.vue";
 import SidebarFooter from "@/layouts/default-layout/components/sidebar/SidebarFooter.vue";
 
 export default defineComponent({
   name: "theme-sidebar",
   components: {
-    KTSidebarLogo,
+    SidebarLogo,
     SidebarMenu,
     SidebarFooter,
   },
