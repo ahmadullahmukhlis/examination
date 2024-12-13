@@ -8,6 +8,7 @@ const config: LayoutConfigTypes = {
     layout: "dark-sidebar",
     iconsType: "duotone",
   },
+  
   header: {
     display: true,
     default: {
