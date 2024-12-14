@@ -59,7 +59,7 @@
               :src="getAssetPath('media/logos/default-small.svg')"
               class="h-30px"
             />
-          </router-link>
+        </router-link>
         </div>
         <!--end::Mobile logo-->
       </template>
