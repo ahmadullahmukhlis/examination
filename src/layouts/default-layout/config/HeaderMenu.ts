@@ -14,6 +14,11 @@ const MainMenuConfig: Array<MenuItem> = [
         route: "/builder",
         keenthemesIcon: "switch",
         bootstrapIcon: "bi-layers",
+      },     {
+        heading: "question",
+        route: "/builder",
+        keenthemesIcon: "switch",
+        bootstrapIcon: "bi-layers",
       },
     ],
   
