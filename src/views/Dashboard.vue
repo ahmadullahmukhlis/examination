@@ -5,7 +5,7 @@
     <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-3 mb-md-5 mb-xl-10">
       <Widget1
         className="h-md-50 mb-5 mb-xl-10"
-        description="Active Projects"
+        description="Active Vecancy"
         bgColor="#F1416C"
         :bgImage="getAssetPath('media/patterns/vector-1.png')"
       />
