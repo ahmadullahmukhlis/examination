@@ -8,9 +8,19 @@ const MainMenuConfig: Array<MenuItem> = [
         route: "/dashboard",
         keenthemesIcon: "element-11",
         bootstrapIcon: "bi-app-indicator",
+      },  {
+        heading: "Exam Mnanagement",
+        route: "/builder",
+        keenthemesIcon: "switch",
+        bootstrapIcon: "bi-layers",
+      }, {
+        heading: "Candidate Management",
+        route: "/builder",
+        keenthemesIcon: "switch",
+        bootstrapIcon: "bi-layers",
       },
       {
-        heading: "layoutBuilder",
+        heading: "Setting",
         route: "/builder",
         keenthemesIcon: "switch",
         bootstrapIcon: "bi-layers",
